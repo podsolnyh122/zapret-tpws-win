@@ -30,7 +30,7 @@
 Если вы скачали готовый архив из раздела [Releases](https://github.com/podsolnyh122/zapret-tpws-win/releases):
 
 1. Распакуйте архив в любую удобную папку.
-2. Убедитесь, что рядом с `tpws.exe` находятся библиотеки `cygwin1.dll` и `cygz.dll`.
+2. Убедитесь, что рядом с `tpws.exe` находятся библиотеки `cygwin1.dll` и `cygz.dll` а также папка lists.
 3. Запустите прокси (например, через командную строку или `.bat`-файл):
    ```cmd
    tpws.exe --socks --bind-addr=127.0.0.1 --port=1080 --split-pos=sniext+4
