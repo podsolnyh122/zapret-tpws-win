@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "TPWS SOCKS5 Switcher",
+  "version": "1.0.0",
+  "description": "Быстрое переключение локального прокси TPWS (127.0.0.1:1080)",
+  "permissions": [
+    "proxy",
+    "storage"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "TPWS Proxy Control"
+  }
+}
